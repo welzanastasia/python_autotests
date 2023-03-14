@@ -3,13 +3,11 @@ import requests
 
 # Сообщение из котика о создании тренера
 # Тренер успешно создан!
-# {'id': '3407', 'trainer_name': 'Пушистая бабочка', 'trainer_token': '2539cbccdf30d4e8ae1c272d0a3dbd97'}
-# Почта caj84435@nezid.com 
-# Пароль Sasasa1
+# {'id': 'id', 'trainer_name': 'имя', 'trainer_token': 'токен из котика'}
 
 # Переменные
-token = '2539cbccdf30d4e8ae1c272d0a3dbd97'
-trainer_id = 3407
+token = 'токен из котика'
+trainer_id = id
 
 # Запрос на создание покемона POST /pokemons
 response = requests.post('https://pokemonbattle.me:9104/pokemons',
