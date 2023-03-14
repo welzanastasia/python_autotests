@@ -6,11 +6,11 @@ import requests
 
 # Сообщение из котика о создании тренера
 # Тренер успешно создан!
-# {'id': '3404', 'trainer_name': 'Welz', 'trainer_token': '89fd06623c85be336b727c544d91791f'}
+# {'id': 'id', 'trainer_name': 'имя', 'trainer_token': 'токен из котика'}
 
 # Переменные
-token = '89fd06623c85be336b727c544d91791f'
-trainer_id = 3404
+token = 'токен из котика'
+trainer_id = id
 
 # Убить лишних покемонов POST /pokemons/kill
 # !!! Убийство не освобождает слот для нового покемона

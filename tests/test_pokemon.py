@@ -4,7 +4,6 @@ import pytest
 
 
 # Переменные
-token = '2539cbccdf30d4e8ae1c272d0a3dbd97'
 trainer_id = '3407'
 
 # Проверь, что ответ запрос GET /trainers приходит с кодом 200
